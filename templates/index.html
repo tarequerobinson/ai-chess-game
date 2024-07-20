@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Chess Game</h1>
+        <p>Tareque Robinson</p>
+        <p>620129516</p>
+
+
+        <div id="board"></div>
+        <div id="turn"></div>
+        <div id="status"></div>
+        <div class="button-container">
+            <button onclick="newGame()">New Game</button>
+            <button onclick="makeAIMove()">AI Move</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="/static/js/chess-game.js"></script>
+</body>
+</html>
