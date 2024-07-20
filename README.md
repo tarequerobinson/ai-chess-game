@@ -97,11 +97,11 @@ Chess Agent/
 ## Code Overview
 
 - `app.py`: Contains the FastAPI server setup and endpoint for AI move calculation.
-- `board_services.py`: Implements the game logic and AI using the Python chess library.
+- `board_services.py`: Implements the game logic and AI using the Python chess library and has the minmax algorithm.
 - `templates/index.html`: The main HTML file for the web interface.
 - `static/`: Contains static files for the CSS, JS.
 
 ## Troubleshooting
 
-If you encounter issues, ensure that all required packages are installed and that your Python version is compatible. Check the console for error messages and consult the documentation for FastAPI and the Python chess library.
+Check the console for error messages.
 
