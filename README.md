@@ -58,7 +58,7 @@ Start playing! You'll be playing as White, and the AI will respond as Black.
 
 ### Frontend
 
-The frontend is built using HTML, CSS, and JavaScript. It uses the chess.js library for game logic and move validation. The chessboard is rendered using HTML and CSS, with piece images loaded from lichess.org.
+The frontend is built using HTML, CSS, and JavaScript. It uses the chess.js library for game logic and move validation. The chessboard is rendered using HTML and CSS.
 
 ### Backend
 
