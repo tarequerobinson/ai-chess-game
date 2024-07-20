@@ -34,7 +34,7 @@ This project is an interactive chess game where you can play against an AI oppon
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ai-chess-game.git
+    git clone https://github.com/tarequerobinson/ai-chess-game.git
     cd ai-chess-game
     ```
 
