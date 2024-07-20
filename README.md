@@ -45,12 +45,23 @@ This project is an interactive chess game where you can play against an AI oppon
 
 ## How to Run
 
-1. Start the FastAPI server:
+1. Create and activate a virtual environment (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Start the FastAPI server:
     ```bash
     uvicorn app:app --reload
     ```
 
-2. Open `templates/index.html` in your web browser.
+4. Open your web browser and navigate to `http://localhost:8080` to view the app.
 
 Start playing! You'll be playing as White, and the AI will respond as Black.
 
@@ -88,8 +99,6 @@ Chess Agent/
 ├── app.py                      # FastAPI server
 ├── README.md                   # Project documentation
 └── requirements.txt            # Python dependencies
-
-
 
 
 
